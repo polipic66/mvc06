@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+#ad {
+	margin: 0px auto;
+	width: 570px;
+}
+
+#adheader h2{
+	margin: 2px auto;
+	font-size: 25px;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 0px;
+}
+
+#adcontent {
+	margin: 0px auto;
+	width: 100%;
+	
+	display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    
+    box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+   
+}
+
+#adcontent #addiv{
+	margin: 0 auto;
+	background-color: #DDEEFF;
+	border-radius: 12px;
+	width: 550px;
+	height: 230px;
+}
+
+#adcontent section{
+	padding: 0px 0px;
+}
+
+#adcontent #list{
+	padding: 100px 0px;
+}
+
+#insertAd{
+	box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}
+
+#chartContainer{
+	padding: 0px;
+	margin: 0px auto;	
+}
+
+#insertAd .label{
+	font: bold 16px 맑은 고딕;
+	width:200px;
+	padding: 20px;
+}
+
+#insertAd .title{
+	padding-left: 45px;
+}
+
+#insertAd .upload{
+	padding-left: 29px;
+}
+
+#insertAd .revdate{
+	padding-left: 13px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+#insertAd .revdate .revtime{
+	padding-top: 15px;	
+	padding-bottom: 0px;
+	position:relative;
+	left: 108px;
+	top: -40px;
+}
+
+#insertAd .regbutton{
+	position: relative;
+	padding-left: 350px;
+	top: -40px;
+}
+
+#insertAd .title input{
+	padding-left: 10px;
+	width: 300px;
+	height: 27px;
+}
+
+#insertAd .upload input{
+	padding-left: 10px;
+	width: 200px;
+	height: 27px;
+}
+
+#insertAd .revdate input{
+	padding-left: 3px;
+	width: 50px;
+	height: 27px;
+}
+
+#insertAd .revdate input:first-child{
+	padding-left: 10px;
+	width: 50px;
+	height: 27px;
+}
+
+#insertAd .regbutton button{
+	font: bold 16px 맑은 고딕;
+	width: 100px;
+	height: 27px;
+}
+
+#insertAd div{
+	width:400px;
+	padding: 7px 0px;
+}
+
+#tbl { 
+	padding: 0px;
+	margin: 0px;
+	width: 570px;
+	/*border-top:3px solid blue;
+	border-bottom:3px solid blue;*/
+	align:center;
+	cellspacing: 0;
+	cellpadding: 0;
+}
+
+#tbl tr>td{
+	height: 30px;
+	border-bottom:1px solid #cccccc;
+}
+
+#tbl #paging{
+	height: 30px;
+	border-bottom:1px solid #ffffff;
+}
+
+#th{
+	padding: 0px;
+	margin: 0px;
+	background-color: #eeeeee;
+}
+
+#tbl tr{
+	border-top:1px solid blue;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+}
+
+#tbl tr>th {
+	font: bold 14px 맑은 고딕;
+	text-align:center;
+	line-height: 25px;
+}
+
+#tbl tr>td {
+	font: 13px 맑은 고딕;
+	text-align:center;
+	line-height: 25px;
+}
+
+#tbl .tblcol1 {
+	width: 10%;
+}
+
+#tbl .tblcol2 {
+	width: 20%;
+}
+
+#tbl .tblcol3 {
+	width: 15%;
+}
+
+#tbl .tblcol4 {
+	width: 42%;
+}
+
+#tbl .tblcol5 {
+	width: 13%;
+}
+

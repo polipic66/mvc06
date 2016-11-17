@@ -1,0 +1,350 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font: bold 20px verdana, sans-serif;
+}
+
+h2 {
+    font: bold 14px verdana, sans-serif;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, 
+hgroup { 
+    display: block;
+}
+
+body {
+    width: 100%;
+    
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    
+    box-pack: center;
+    -moz-box-pack: center;
+    -webkit-box-pack: center;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 15px auto;
+    
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    
+    box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    
+    box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}
+
+
+
+#left{
+     box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}    
+
+#main_menu { 
+    text-align: center;
+    background: #ff0000;
+    padding: 5px 15px;
+    
+}
+
+#main_menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 40px;
+    font: bold 20px verdana, sans-serif;
+    color:  white;
+}
+
+#content {
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    
+    box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-box-orient: horizontal;
+}
+
+ @media screen and (max-width:299px){
+            /*모바일*/    
+            #left img {
+           	width : 50%;
+           	height : 50%;
+            }
+            #main_header {
+		    display: box;
+		    display: -moz-box;
+		    display: -webkit-box;
+		    
+		    box-orient: vertical;
+		    -moz-box-orient: vertical;
+		    -webkit-box-orient: vertical;
+			}
+			
+            #content {
+		    display: box;
+		    display: -moz-box;
+		    display: -webkit-box;
+		    
+		    box-orient: vertical;
+		    -moz-box-orient: vertical;
+		    -webkit-box-orient: vertical;
+			}
+            
+           #container {
+           	 box-flex: 1;
+    		-moz-box-flex: 1;
+    		-webkit-box-flex: 1;
+    
+		    width: 80%;
+		    display: box;
+		    display: -moz-box;
+		    display: -webkit-box;
+		    
+		    box-orient: vertical;
+		    -moz-box-orient: vertical;
+		    -webkit-box-orient: vertical;
+			}
+}
+
+@media screen and (min-width:300px) and (max-width:580px){
+            /*모바일*/    
+            #left img {
+           	width : 70%;
+           	height : 70%;
+            }
+            #main_header {
+		    display: box;
+		    display: -moz-box;
+		    display: -webkit-box;
+		    
+		    box-orient: vertical;
+		    -moz-box-orient: vertical;
+		    -webkit-box-orient: vertical;
+			}
+			
+            #content {
+		    display: box;
+		    display: -moz-box;
+		    display: -webkit-box;
+		    
+		    box-orient: horizontal;
+		    -moz-box-orient: horizontal;
+		    -webkit-box-orient: horizontal;
+			}
+            
+           #container {
+           	 box-flex: 1;
+    		-moz-box-flex: 1;
+    		-webkit-box-flex: 1;
+    
+		    width: 80%;
+		    display: box;
+		    display: -moz-box;
+		    display: -webkit-box;
+		    
+		    box-orient: horizontal;
+		    -moz-box-orient: horizontal;
+		    -webkit-box-orient: horizontal;
+			}
+}
+
+#main_header {
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    
+    box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+}
+
+#left{
+     box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}    
+
+
+  @media screen and (min-width:581px) and (max-width:2048px) {
+             /*pc용*/
+              #left img {
+           	width : 400px;
+            }
+             #main_header {
+		    display: box;
+		    display: -moz-box;
+		    display: -webkit-box;
+		    
+		    box-orient: horizontal;
+		    -moz-box-orient: horizontal;
+		    -webkit-box-orient: horizontal;
+			}
+              #content {
+		    display: box;
+		    display: -moz-box;
+		    display: -webkit-box;
+		    
+		    box-orient: horizontal;
+		    -moz-box-orient: horizontal;
+		    -webkit-box-orient: horizontal;
+			}
+            
+           #container {
+           	 box-flex: 1;
+    		-moz-box-flex: 1;
+    		-webkit-box-flex: 1;
+    
+		    width: 80%;
+		    display: box;
+		    display: -moz-box;
+		    display: -webkit-box;
+		    
+		    box-orient: horizontal;
+		    -moz-box-orient: horizontal;
+		    -webkit-box-orient: horizontal;
+			}
+	}
+             
+#lside {
+    box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    
+    box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+}
+
+#lside ul {
+    margin: 10px;
+    border-radius: 9px;
+    border: 1px solid navy;
+}
+
+#lside ul li:first-child {
+    background-color: navy;
+    color:white;
+    border-radius: 9px 9px 0px 0px;
+    border-top: none;
+}
+
+#lside ul li:last-child {
+    border-bottom: none;
+    border-radius: 0px 0px 9px 9px;
+}
+
+#lside ul li {
+    list-style: none;
+    padding: 5px;
+    font: bold 15px verdana, sans-serif;
+    text-align: center;
+    border-bottom: 1px solid navy;
+	color:black;
+}
+
+#lside a {
+	text-decoration:none;
+	color:black;
+}
+
+#lside li:first-child a{
+	text-decoration:none;
+	color:white;
+}
+
+#main_section {
+    box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    
+    margin: 20px;
+}
+
+#main_aside {
+    width: 200px;
+    margin: 0px 0px;   
+}
+
+#main_footer {
+    background-color: #d5e8d4;
+    text-align: center;
+    padding: 25px;
+    border-top: 5px solid #9ac7bf;
+}
+
+article {
+    background: #FFFBCC;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+time {
+    color: #999999;
+}
+
+article footer {
+    text-align: right;
+}
+
+figcaption {
+    font: italic 14px verdana, sans-serif;
+}
+#right{
+    width: 220px;
+    height: 90px;
+}
+#login{
+    position: relative;
+    top: -41px;
+    left :175px;
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 40px;
+}
+#login button{
+     width: 50px;
+    height: 40px;
+}
+#insert{
+    position: relative;
+    top: -38px;
+    left :0px;
+    margin: 0px;
+    padding: 0px;
+}
+#insert button{
+     width: 114px;
+     height: 40px;
+    font-size: 10px
+}
+#search{
+    position: relative;
+    top: -78px;
+    width: 100px;
+    left :110px;
+    margin: 0px;
+    padding: 0px;
+}
+#search button{
+     width: 114px;
+     height: 40px;
+     font-size: 10px
+}

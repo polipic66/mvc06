@@ -1,0 +1,47 @@
+.curr_table {
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    border: 3px cornflowerblue dotted;
+}
+
+.curr_table_line {
+    clear: both;
+    height: 20px;
+}
+
+/*#curr_table_l {*/
+    /*!*float: left;*!*/
+    /*text-align: center;*/
+    /*color: #000000;*/
+    /*font: bold 20px 맑은 고딕;*/
+    /*background-color: #f1f6c4;*/
+
+/*}*/
+
+.curr_table_r {
+    text-align: right;
+}
+
+.curr_table tr,
+.curr_table th {
+    /*border: 1px hotpink solid;*/
+}
+
+.curr_table td {
+    border-bottom: solid lightblue;
+}
+
+.curr_table_ul {
+    margin: 0 auto;
+    list-style: none;
+    width: 300px;
+}
+
+.curr_table_ul > li {
+    float: left;
+    margin: 0 5px;
+}
+
+.curr_table_title {
+    width: 300px;
+}

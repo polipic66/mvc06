@@ -1,0 +1,49 @@
+.wrap {
+    padding: 10px;
+    background-color: #def0c2;
+    overflow: hidden
+}
+
+.content_form_l {
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+    padding: 20px 0;
+    background-color: #59b1f6;
+    color: #000000;
+    text-align: center
+}
+
+.content_form_r {
+    float: left;
+    width: 49%;
+    padding: 20px 0;
+    background-color: #ffb5b4;
+    color: #000000;
+    text-align: center
+}
+
+.text_color_l {
+    background-color: #87d8f6;
+}
+
+.text_color_r {
+    background-color: #ffdde4;
+}
+
+.content_center {
+    margin: 0 auto;
+}
+
+.not_table_line {
+    clear: both;
+    height: 20px;
+}
+
+.content {
+    width: 865px;
+    height: 300px;
+    background-color: #fff2d8;
+    padding: 5px 4px;
+    font: bold 13px 맑은 고딕;
+}

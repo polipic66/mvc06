@@ -1,0 +1,353 @@
+@charset "UTF-8";
+
+#ad {
+	margin: 0px auto;
+	width: 570px;
+}
+
+#adheader h2{
+	margin: 5px auto;
+	font-size: 25px;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+#adcontent {
+	margin: 5px auto;
+	width: 100%;
+	
+	display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    
+    box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+   
+}
+
+#adcontent #addiv{
+	margin: 0 auto;
+	background-color: #DDEEFF;
+	border-radius: 12px;
+	width: 550px;
+	height: 230px;
+	border: 2px dashed red;
+}
+
+#adcontent section{
+	padding: 10px 0px;
+}
+
+#insertAd{
+	box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}
+
+#insertAd .label{
+	font: bold 16px 맑은 고딕;
+	width:200px;
+	padding: 20px;
+}
+
+#insertAd .title{
+	padding-left: 45px;
+}
+
+#insertAd .upload{
+	padding-left: 29px;
+}
+
+#insertAd .revdate{
+	padding-left: 13px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+#insertAd .revdate .revtime{
+	padding-top: 15px;	
+	padding-bottom: 0px;
+	position:relative;
+	left: 108px;
+	top: -40px;
+}
+
+#insertAd .regbutton{
+	position: relative;
+	padding-left: 350px;
+	top: -40px;
+}
+
+#insertAd .title input{
+	padding-left: 10px;
+	width: 300px;
+	height: 27px;
+}
+
+#insertAd .upload input{
+	padding-left: 10px;
+	width: 200px;
+	height: 27px;
+}
+
+#insertAd .revdate input{
+	padding-left: 3px;
+	width: 50px;
+	height: 27px;
+}
+
+#insertAd .revdate input:first-child{
+	padding-left: 10px;
+	width: 50px;
+	height: 27px;
+}
+
+#insertAd .regbutton button{
+	font: bold 16px 맑은 고딕;
+	width: 100px;
+	height: 27px;
+}
+
+#insertAd div{
+	width:400px;
+	padding: 7px 0px;
+}
+
+#tbl { 
+	padding: 0px;
+	margin: 0px;
+	width: 570px;
+	/*border-top:3px solid blue;
+	border-bottom:3px solid blue;*/
+	align:center;
+	cellspacing: 0;
+	cellpadding: 0;
+}
+
+#tbl tr>td{
+	height: 30px;
+	border-bottom:1px solid #cccccc;
+}
+
+#tbl #paging{
+	height: 30px;
+	border-bottom:1px solid #ffffff;
+}
+
+#th{
+	padding: 0px;
+	margin: 0px;
+	background-color: #eeeeee;
+}
+
+#tbl tr{
+	border-top:1px solid blue;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+}
+
+#tbl tr>th {
+	font: bold 14px 맑은 고딕;
+	text-align:center;
+	line-height: 25px;
+}
+
+#tbl tr>td {
+	font: 13px 맑은 고딕;
+	text-align:center;
+	line-height: 25px;
+}
+
+#tbl .tblcol1 {
+	width: 10%;
+}
+
+#tbl .tblcol2 {
+	width: 15%;
+}
+
+#tbl .tblcol3 {
+	width: 15%;
+}
+
+#tbl .tblcol4 {
+	width: 10%;
+}
+
+#tbl .tblcol5 {
+	width: 25%;
+}
+
+#tbl .tblcol6 {
+	width: 10%;
+}
+
+#tbl .tblcol7 {
+	width: 15%;
+}
+
+#tab {
+	border-bottom: 1px solid black;
+}
+
+#tab ul {
+	display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    
+    box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-box-orient: horizontal;
+    
+	width: 50%;
+}
+
+#tab ul li {
+	display: block;
+	list-style:none;
+	padding:4px;
+	margin:0;
+	display: block;
+	width: 100px;
+	height: 27px;
+	font: bold 14px 맑은 고딕;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: none;
+	border-bottom: none;
+	
+	border-radius: 12px 12px 0px 0px;
+	text-align: center;
+	
+	 box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}
+
+#tab ul li:last-child {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: none;
+}
+
+#tab #tab1 {
+	background-color: #cccccc;
+}
+
+#tab #tab2 {
+	background-color: #cccccc;
+}
+
+#tab #tab3 {
+	background-color: #cccccc;
+}	
+
+#list1 {
+	display: block;
+}
+
+#list2 {
+	display: none;
+	height: 100%;
+	position: absolute;
+}
+
+#list3 {
+	display: none;
+}	
+
+#tabbox {
+	position: relative;
+	/*border:4px solid red;*/
+	height:310px;
+	top: 14px;
+	padding-top: 25px;
+	margin: 0 auto;
+}
+#cyberbtn {
+	list-style: none;
+	display:block;
+	padding: 5px;
+	position: absolute;
+	left: 330px;
+	top: -5px;
+	
+	display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    
+    box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-box-orient: horizontal;
+    
+    width: 40%;
+}
+
+#cyberbtn #li1 {
+	display: block;
+	background-color: red;
+	color: yellow;
+	width: 100px;
+	height: 30px;
+	font: bold 13px 맑은 고딕;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 30px; 
+	margin: 0px 3px 0px 0px; 
+	border: 1px solid black;
+	
+	box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}
+
+#cyberbtn #li2 {
+	display: block;
+	background-color: blue;
+	color:white;
+	width: 100px;
+	height: 30px;
+	font: bold 13px 맑은 고딕;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid black;
+}
+
+#cyberbtn #li1 a{
+	text-decoration: none;
+	color: yellow;
+}
+
+#cyberbtn #li2 a{
+	text-decoration: none;
+	color: white;
+}
+
+#tbl #paging{
+	padding: 16px;
+	height: 30px;
+	border-bottom:1px solid #ffffff;
+	text-align:center;
+	align:center;
+}
+
+#tbl #paging a{
+	text-decoration:none;
+	color: black;
+	font: 15px 맑은 고딕;
+}
+
+#tbl #paging a:hover{
+	text-decoration:none;
+	color: red;
+	font: 15px 맑은 고딕;
+	cursor:hand;
+	cursor:pointer;
+}
+
+

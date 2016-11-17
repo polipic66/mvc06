@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+#tbl3 { 
+	padding: 0px;
+	margin: 0px;
+	width: 570px;
+	/*border-top:3px solid blue;
+	border-bottom:3px solid blue;*/
+	align:center;
+	cellspacing: 0;
+	cellpadding: 0;
+}
+
+#tbl3 tr>td{
+	height: 30px;
+	border-bottom:1px solid #cccccc;
+}
+
+#tbl3 #paging{
+	height: 30px;
+	border-bottom:1px solid #ffffff;
+}
+
+#th{
+	padding: 0px;
+	margin: 0px;
+	background-color: #eeeeee;
+}
+
+#tbl3 tr{
+	border-top:1px solid blue;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+}
+
+#tbl3 tr>th {
+	font: bold 14px 맑은 고딕;
+	text-align:center;
+	line-height: 25px;
+}
+
+#tbl3 tr>td {
+	font: 13px 맑은 고딕;
+	text-align:center;
+	line-height: 25px;
+}
+
+#tbl3 .tblcol1 {
+	width: 10%;
+}
+
+#tbl3 .tblcol2 {
+	width: 15%;
+}
+
+#tbl3 .tblcol3 {
+	width: 30%;
+}
+
+#tbl3 .tblcol4 {
+	width: 12%;
+}
+
+#tbl3 .tblcol5 {
+	width: 13%;
+}
+
+
+#tbl3 #paging{
+	padding: 16px;
+	height: 30px;
+	border-bottom:1px solid #ffffff;
+	text-align:center;
+	align:center;
+}
+
+#tbl3 #paging a{
+	text-decoration:none;
+	color: black;
+	font: 15px 맑은 고딕;
+}
+
+#tbl3 #paging a:hover{
+	text-decoration:none;
+	color: red;
+	font: 15px 맑은 고딕;
+	cursor:hand;
+	cursor:pointer;
+}
+
+
+

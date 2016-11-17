@@ -1,0 +1,135 @@
+#right{
+    width: 220px;
+    height: 90px;
+}
+#login{
+    position: relative;
+    top: -41px;
+    left :175px;
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 40px;
+}
+#login button{
+     width: 50px;
+    height: 40px;
+}
+#insert{
+    position: relative;
+    top: -38px;
+    left :0px;
+    margin: 0px;
+    padding: 0px;
+}
+#insert button{
+     width: 114px;
+     height: 40px;
+    font-size: 10px
+}
+#search{
+    position: relative;
+    top: -78px;
+    width: 100px;
+    left :110px;
+    margin: 0px;
+    padding: 0px;
+}
+#search button{
+     width: 114px;
+     height: 40px;
+     font-size: 8px
+}
+
+#joinform {
+        font-size: 50px;
+        text-align: center;
+}
+
+#agreeform { 
+    font-size: 20px;
+    text-align: center;
+}
+#privacy {
+    
+    margin: 120px;
+    text-align: center;
+}   
+#privacy .id{
+    margin: 15px;
+}
+
+#privacy .pw{
+margin: 15px;
+}
+#privacy .pw2{
+  margin: 15px;
+}
+#privacy .name{
+   margin: 15px;
+}
+#privacy .tel{
+   margin: 15px;
+}
+#privacy .birth{
+   margin: 15px;
+}
+#privacy .button {
+   
+    text-align: center;
+}
+#privacy .button button{
+    width: 100px;
+    height: 60px;
+    font-size: 15px;
+    background-color: firebrick
+}
+
+#joinform {
+        font-size: 50px;
+        text-align: center;
+}
+
+#agreeform { 
+    font-size: 20px;
+    text-align: center;
+}
+#privacy {
+    margin: 120px;
+    text-align: center;
+}   
+#privacy .id{
+    margin: 15px;
+    font-size: 20px;
+}
+
+#privacy .pw{
+    font-size: 20px;
+    margin: 15px;
+}
+#privacy .pw2{
+    font-size: 20px;
+    margin: 15px;
+}
+#privacy .name{
+   font-size: 20px;
+   margin: 15px;
+}
+#privacy .tel{
+   font-size: 20px;
+   margin: 15px;
+}
+#privacy .birth{
+    font-size: 15px;
+    margin: 15px;
+}
+#privacy .button {
+   
+    text-align: center;
+}
+#privacy .button button{
+    width: 100px;
+    height: 60px;
+    font-size:25px;
+    background-color: firebrick;
+}

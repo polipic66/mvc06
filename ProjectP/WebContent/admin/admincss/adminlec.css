@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+#tbl2 { 
+	padding: 0px;
+	margin: 0px;
+	width: 570px;
+	/*border-top:3px solid blue;
+	border-bottom:3px solid blue;*/
+	align:center;
+	cellspacing: 0;
+	cellpadding: 0;
+}
+
+#tbl2 tr>td{
+	height: 30px;
+	border-bottom:1px solid #cccccc;
+}
+
+#tbl2 #paging{
+	height: 30px;
+	border-bottom:1px solid #ffffff;
+}
+
+#th{
+	padding: 0px;
+	margin: 0px;
+	background-color: #eeeeee;
+}
+
+#tbl2 tr{
+	border-top:1px solid blue;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+}
+
+#tbl2 tr>th {
+	font: bold 14px 맑은 고딕;
+	text-align:center;
+	line-height: 25px;
+}
+
+#tbl2 tr>td {
+	font: 13px 맑은 고딕;
+	text-align:center;
+	line-height: 25px;
+}
+
+#tbl2 .tblcol1 {
+	width: 10%;
+}
+
+#tbl2 .tblcol2 {
+	width: 15%;
+}
+
+#tbl2 .tblcol3 {
+	width: 30%;
+}
+
+#tbl2 .tblcol4 {
+	width: 15%;
+}
+
+#tbl2 .tblcol5 {
+	width: 10%;
+}
+
+#tbl2 .tblcol6 {
+	width: 20%;
+}
+
+#tbl2 #paging{
+	padding: 16px;
+	height: 30px;
+	border-bottom:1px solid #ffffff;
+	text-align:center;
+	align:center;
+}
+
+#tbl2 #paging a{
+	text-decoration:none;
+	color: black;
+	font: 15px 맑은 고딕;
+}
+
+#tbl2 #paging a:hover{
+	text-decoration:none;
+	color: red;
+	font: 15px 맑은 고딕;
+	cursor:hand;
+	cursor:pointer;
+}
+
+
+

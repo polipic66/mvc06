@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+#ad {
+	margin: 0px auto;
+	width: 570px;
+}
+
+#adheader h2{
+	margin: 5px auto;
+	font-size: 25px;
+	text-align: center;
+	width: 96%;
+	padding-bottom: 10px;
+}
+
+#adcontent {
+	margin: 5px auto;
+	width: 96%;
+	
+	display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    
+    box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+}
+
+#insertAd ul{
+	margin: 0 auto;
+	background-color: #FFF2CC;
+	border-radius: 12px;
+	border: 2px dashed #B5739D;
+}
+
+#insertAd ul li{
+	list-style:none;
+	padding: 1px 4px;
+	margin: 0px;
+}
+
+#insertAd #msg{
+	display:none;
+	align: center;
+	width: 100%;
+	margin: 5 auto;
+	text-align: center;
+	line-height: 80px;
+	height: 80px;
+	border-radius: 12px;
+	border-color: 3px solid #97D077;
+	background-color: #EA6B66;
+	color: white;
+	font: bold 18px 맑은 고딕;
+}
+
+#insertAd hr {
+	margin-top:15px;
+}
+
+#insertAd{
+	box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}
+
+#insertAd .label{
+	font: bold 16px 맑은 고딕;
+	width:200px;
+	padding: 20px;
+}
+
+#insertAd input {
+	font: 14px 맑은 고딕;
+}
+
+#insertAd textarea {
+	font: 14px 맑은 고딕;
+	padding: 10px 7px;
+	margin:0px; 
+}
+
+#insertAd .wtitle{
+	padding-left: 45px;
+	margin-top: 8px;
+}
+
+#insertAd .wname{
+	padding-left: 45px;
+}
+
+#insertAd .wtel{
+	padding-left: 13px;
+}
+
+#insertAd .wemail{
+	padding-left: 28px;
+}
+
+#insertAd  #wcnt{
+	padding-top: 15px;	
+}
+
+#insertAd  #wcnt .label{
+	padding-left: 28px;
+}
+
+#insertAd #wcntsub{
+	display:block;
+	position:relative;
+	left: 120px;
+	top: -29px;
+	overflow: vertical;
+}
+
+#insertAd .regbutton{
+	display: block;
+	position: relative;
+	padding-left: 300px;
+	top: -20px;
+}
+
+#insertAd .wtitle input{
+	padding-left: 10px;
+	width: 300px;
+	height: 27px;
+	margin-top: 8px;
+}
+
+#insertAd .wname input{
+	padding-left: 10px;
+	width: 200px;
+	height: 27px;
+}
+
+#insertAd .wtel input{
+	padding-left: 10px;
+	width: 200px;
+	height: 27px;
+}
+
+#insertAd .wemail input{
+	padding-left: 10px;
+	width: 200px;
+	height: 27px;
+}
+
+#insertAd .regbutton button{
+	font: bold 16px 맑은 고딕;
+	width: 100px;
+	height: 27px;
+}

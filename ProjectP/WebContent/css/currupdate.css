@@ -1,0 +1,24 @@
+.content_form {
+    display: inline-block;
+}
+
+.content {
+    position:relative;
+    left: 80px;
+    top:-20px;
+    width: 410px;
+    height: 300px;
+    background-color: #FFE599;
+    padding: 5px 4px;
+    border-radius: 12px;
+    font: bold 13px 맑은 고딕;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.btn {
+    text-align: center;
+}

@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.log4j.Logger;
+
 import com.mvc2.controller.IndexImp;
 import com.mvc2.controller.InterController;
 import com.mvc2.controller.ListImp;
@@ -17,6 +19,7 @@ import com.mvc2.controller.ListImp;
 
 public class DispatcherServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	static Logger logger = Logger.getLogger("com.mvc2.core.DispatcherServlet");
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
@@ -41,7 +44,14 @@ public class DispatcherServlet extends HttpServlet {
 	protected void doDo(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		String path = request.getServletPath();
+		logger.debug(path);
+		logger.info(path);
+		logger.error(path);
+		logger.warn(path);
+		logger.fatal(path);
+				
 		System.out.println(path);
+		
 		InterController ic = null;
 		if(path.equals("/")){
 			ic = new IndexImp();
